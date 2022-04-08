@@ -40,7 +40,7 @@ body {
 }
 /* ---------------------header------------------------- */
 
-.navigation {
+.navigation, .contact_link {
     background-color: var(--secondary-color);
     font-weight: 500;
     font-size: 14px;
@@ -57,16 +57,13 @@ body {
  
 }
 
-.logo-title {
+.logo_title, .nav_link {
     color: var(--title-color);
 }
 .logo {
     color: var(--blue-text-color);
 }
 
-.nav_item {
-    color: var(--title-color);
-}
 .link_active{
     color: var(--blue-text-color);
 }
@@ -93,7 +90,7 @@ body {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,88;
+    line-height: 1.88;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -134,19 +131,28 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
+.team_item {
+    background-color: var(--secondary-color);
+}
 
 .team_name {
     font-weight: 500;
     color: var(--title-color);
 }
 /* --------------------footer----------------------- */
-
-.footer_nav, .footer_link {
+.footer_contact{
+    font-style: normal;
+}
+.footer_nav {
     background-color: var(--header-color);
     color: var(--secondary-color);
 }
 .footer_logo {
     color: var(--secondary-color);
+}
+
+.footer_link {
+    color: rgba(255, 255, 255, 0.6);
 }
 
 /* --------------------portfolio-------------------- */
